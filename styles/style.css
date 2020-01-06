@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Corrier Prime";
+    line-height: normal;
+    scroll-behavior: smooth;
+    background-color: #c7ecee;
+    color: #535c68;
+}
+
+
+nav ul{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    width: 98%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+}
+
+nav li{
+    font-size: 1.0em;
+    border:1px solid #95afc0;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    height: 20px;
+
+}
+
+nav li:hover{
+    background-color: #95afc0;
+    border-width: 1px;
+    color: #535c68;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+#bio{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+img{
+    width: 200px;
+}
+
+
+.txt1{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-esq{
+    width: 30%;
+    padding: 0 20px ;
+    margin: 0 20px;
+}
+.txt-dir{
+    width: 70%;
+    padding: 20px ;
+    margin: 20px;
+
+}
+
+.txt2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.img-dir{
+    width: 30%;
+    padding: 0 20px ;
+    margin: 0 20px;
+}
+
+.txt-esq{
+    width: 70%;
+    padding: 20px ;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+    width: 80%;
+       align-items: center;
+    justify-content: center;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    padding:10px 20px;
+    margin-left: 8%;
+    font-size: 20px;
+}
+
+.footer{
+    color: #000;
+    font-size: 12px;
+}
+
+
+ul#album-fotos{
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+
+
+
+ul#album-fotos li{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid white;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+  transition: all .4s ease-in;
+
+}
+
+ul#album-fotos li span{
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(0, 0, 0, .3);
+  font-size: 9pt;
+  line-height: 370px;
+  padding: 5px;
+}
+
+ul#album-fotos li:hover{
+  /* transition: all .4s ease-in; */
+  transform: scale(1.5,1.5);
+}
+
+
+ul#album-fotos li:hover span{
+  opacity: 1;
+  transition: 1s;
+}
+
+ul#album-fotos li#foto01{
+  background: url('/public/img/regional2015.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+ 
+
+}
+ul#album-fotos li#foto01:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02{
+  background: url('/public/img/prejaisI.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto02:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+  ul#album-fotos li#foto03{
+  background: url('/public/img/prejaisII.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto03:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04{
+  background: url('/public/img/regional1.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto04:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05{
+  background: url('/public/img/torneioregional2.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto05:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06{
+  background: url('/public/img/2016-conjunto.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto06:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto07{
+  background: url('/public/img/copaamizade.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto07:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto08{
+  background: url('/public/img/copa-SP-2fase.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto08:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+ul#album-fotos li#foto09{
+  background: url('/public/img/copaSP1fase.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+ul#album-fotos li#foto09:hover{
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
